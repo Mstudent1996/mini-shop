@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topProducts {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.productCard:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'asap', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.productLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #c3d5c7;
+    border-radius: 10px;
+    min-height: 450px; 
+    color: #000;
+    text-align: center;
+    width: 450px;
+    font-family: 'asap', sans-serif;
+    padding: 10px;
+}
+
+.productImg {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.reviews {
+    margin-top: 10px;
+}

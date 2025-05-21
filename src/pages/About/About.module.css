@@ -1,0 +1,70 @@
+.aboutImg {
+    width: 340px;
+    margin-top: 10px;
+}
+
+.form {
+    text-align: center;
+}
+
+.name, .comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment {
+    margin-top: 10px;
+}
+
+.nameArea, .commentArea {
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.nameArea {
+    height: 30px;
+}
+
+.commentArea {
+    height: 150px;
+}
+
+.submit {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #c3d5c7;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    background-color: #007EA7;
+    color: white
+}
+
+.openingHours{
+    text-align: center;
+}
+
+@media (min-width: 993px) {
+    .aboutDetails {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .aboutImg {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .form {
+        width: 500px;
+    }
+
+    .openingHours {
+        display: flex;
+        flex-direction: column;
+    }
+}
