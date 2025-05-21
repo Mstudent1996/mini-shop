@@ -9,18 +9,18 @@ export default function Pagination({
     <div className={styles.pagination}>
       <button
         onClick={() => setCurrentPage(currentPage - 1)}
-        disabled={currentPage === 1}
+        disabled={currentPage === 1} className={styles.button}
       >
         Previous
       </button>
 
       <span>
-        Side {currentPage} af {totalPages}
+        Page {currentPage} of {totalPages}
       </span>
 
       <button
         onClick={() => setCurrentPage(currentPage + 1)}
-        disabled={currentPage === totalPages}
+        disabled={currentPage === totalPages} className={styles.button}
       >
         Next
       </button>

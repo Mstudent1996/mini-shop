@@ -2,5 +2,17 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
+
+.button {
+    padding: 10px;
+    background-color: #c3d5c7;
+    border: none;
+    transition: 0.3s
+}
+
+.button:hover {
+    background-color: #007EA7;
+}
+
